@@ -17,7 +17,7 @@ assert kw_sum(-3, -1) == 16, "FAILED"
 def replace_a(s1):
     return s1.replace("a", "x")
 
-assert "a" not in replace_a("aasaa"), "FAILED"
+assert "a" not in replace_a("aasaa"), "FAILED"0
 
 # Asercje nie służą tylko do testowania
 
@@ -25,4 +25,4 @@ def div(x, y):
     assert y!=0, "Zero division not allowed"
     return x/y
 
-print(div(4, 0))
+print(div(4, ))
